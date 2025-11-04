@@ -4,23 +4,12 @@ const canvas = document.querySelector('.canvas');
 const ctx = canvas.getContext('2d');
 
 
-// ctx.beginPath();
-// ctx.moveTo(20, 50);
-
-// ctx.lineTo(70, 15);
-
-// ctx.lineWidth = 3;
-// ctx.strokeStyle = 'rgb(70, 163, 224)';
-// ctx.stroke();
-// ctx.closePath();
-
 let step = 0.01;
 
 let t = 0; // от 0 до 1
 let x;
 let y;
-//x1  y1  x2  y2  x   y
-// C 420 471 427 458 427 445
+
 
 
 let x1 = 58;
